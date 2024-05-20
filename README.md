@@ -6,6 +6,7 @@ A simple weather application developed using React and JavaScript.
 To run this application locally, follow these steps:
 
 Open react-weather-app in terminal
+
 Run: npm install
 
 Run: npm run start
