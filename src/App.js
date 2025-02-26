@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import Search from "./components/search/search";
 import CurrentWeather from './components/current-weather/CurrentWeather';
 import Forecast from './components/forecast/Forecast';
@@ -29,7 +28,7 @@ function App() {
          .catch(console.log);
     };
     return (
-    <div className="Container">
+    <div className="max-w-[1080px] mx-auto my-5">
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather}/>}
       {forecast && <Forecast data={forecast}/>}
